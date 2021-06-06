@@ -219,59 +219,101 @@ main {
   margin-bottom: 20px;
 }
 
-.autor { font-weight: 600;
-          font-size: 2rem;
-          margin-top: 40px;
-        }
-
-.proyectos { width: 100%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              margin-top: 100px;
-            }
-.proyecto-texto { width: 80%;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  justify-content: center;
-                }
-.proyecto-texto > h2 { font-size: 3rem;
-                       text-align: center;
-                        margin-top: 0%;
-                      }
-
-.proyecto-texto > p { width:35%;
-                      text-align: center;
-                      margin-top: 0%;
-                    }
-
-.proyecto-imagenes{ width: 75%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                  }
-
-.iconos-proyectos{ width: 300px;
-height: 330px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+.autor {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 40px;
 }
 
-.iconos-proyectos > p{ text-decoration: none;
-                      color: black;
-                      font-size: 1.2rem;  
-                    } /*resolver el poder borrar el subrayado*/
+.proyectos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.proyecto-texto {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proyecto-texto > h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0%;
+}
 
-.iconos-proyectos > img{ width: 300px;
-                        height: 200px;
-                        }
+.proyecto-texto > p {
+  width: 35%;
+  text-align: center;
+  margin-top: 0%;
+}
 
-          
+.proyecto-imagenes {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.iconos-proyectos {
+  width: 300px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iconos-proyectos > p {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+} /*resolver el poder borrar el subrayado*/
+
+.iconos-proyectos > img {
+  width: 300px;
+  height: 200px;
+}
+
+.contacto {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacto h2 {
+  width: 500px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 5%;
+}
+
+.contacto p {
+  width: 400px;
+  color: rgb(73, 68, 68);
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
+
+.redes img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+} /*como cambiar el color?*/
+
+.redes a {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(73, 68, 68);
+}
 
 @media screen and (max-width: 1100px) {
   body {
@@ -304,4 +346,25 @@ flex-direction: column;
   .presentacion > img {
     margin-top: 40px;
   }
+
+  .contacto {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .redes {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .redes a{ width: 40%;
+            height: 30%;
+            margin: 0%;
+            padding: 0%;
+            align-items: center;
+          }
+
 }
