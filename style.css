@@ -185,10 +185,10 @@ main {
   margin-bottom: 0;
 }
 
-.lenguajes > h3 {
+.lenguajes {
   text-decoration: none;
-  color: rgb(70, 66, 66);
-} /*porque no me toma el text decoration?*/
+  color: black;
+}
 
 /*.lenguajes :hover {
   border: solid 2px #625164;
@@ -268,11 +268,11 @@ main {
   flex-direction: column;
 }
 
-.iconos-proyectos > p {
+.iconos-proyectos {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
-} /*resolver el poder borrar el subrayado*/
+}
 
 .iconos-proyectos > img {
   width: 300px;
@@ -358,13 +358,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
   }
-  .redes a{ width: 40%;
-            height: 30%;
-            margin: 0%;
-            padding: 0%;
-            align-items: center;
-          }
-
+  .redes a {
+    width: 40%;
+    height: 30%;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+  }
 }
