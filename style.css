@@ -62,9 +62,9 @@ ul {
   color: #b59ac5;
 }
 
-.boton-contacto :hover {
-  color: #625164;
-} /*como poner el background y que lo tome entero?*/
+.boton-contacto:hover {
+  background-color: #625164;
+}
 
 main {
   height: auto;
@@ -114,15 +114,18 @@ main {
 }
 
 .hago {
+  width: 180px;
+  height: 50px;
   background-color: #625164;
   border-radius: 40px;
   padding: 12px 18px;
   border: none;
+  margin-top: 30px;
 }
 
-.hago :hover {
-  color: #b59ac5;
-} /*como poner el background y que lo tome entero?*/
+.hago:hover {
+  background-color: #b59ac5;
+}
 
 .hago > a {
   text-decoration: none;
@@ -306,6 +309,11 @@ main {
   margin-right: 20px;
 } /*como cambiar el color?*/
 
+.redes img:hover {
+  background-color: #b59ac5;
+  border-radius: 50%;
+} /*cambiar el color del icnono y resolver el padding*/
+
 .redes a {
   display: flex;
   margin-top: 30px;
@@ -313,6 +321,10 @@ main {
   margin-left: 20px;
   text-decoration: none;
   color: rgb(73, 68, 68);
+}
+
+.redes a:hover {
+  color: #b59ac5;
 }
 
 .form h2 {
