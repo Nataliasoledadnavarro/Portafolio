@@ -415,10 +415,11 @@ footer {
 }
 
 ul {
-  width: 40%;
+  width: 35%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0%;
 }
 
 ul a {
@@ -431,13 +432,32 @@ li {
   font-size: 1rem;
 }
 
-footer img {
-  width: 35px;
-  height: 35px;
+.iconos {
+  width: 25%;
+  padding: 0%;
+  justify-content: space-around;
+}
+
+.iconos li {
   background-color: white;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  margin: 10px;
-} /* resolver el padding y tamaño img*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconos img {
+  width: 25px;
+  height: 25px;
+  padding-top: 3px;
+} /*como cambiar el color svg?*/
+
+.iconos li:hover {
+  background-color: #b59ac5;
+  border: solid 1px white;
+}
 
 footer p {
   color: #b59ac5;
