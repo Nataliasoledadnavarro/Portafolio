@@ -81,7 +81,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .texto {
@@ -139,6 +139,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 150px;
 }
 
 .desarrollo {
@@ -191,22 +192,25 @@ main {
 .lenguajes {
   text-decoration: none;
   color: black;
+  border-radius: 10px;
+  border: solid 2px rgba(192, 187, 187, 0.432);
 }
 
-/*.lenguajes :hover {
-  border: solid 2px #625164;
-} como colocarlo en el borde de lenguajes?*/
+.lenguajes:hover {
+  border: solid 2px #b59ac5;
+  border-radius: 10px;
+}
 
 .cita {
   width: 100%;
   height: 450px;
-
   background-color: #b59ac5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #625164;
+  margin-top: 150px;
 }
 
 .cita > img {
@@ -234,7 +238,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .proyecto-texto {
   width: 80%;
@@ -242,6 +246,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .proyecto-texto > h2 {
   font-size: 3rem;
@@ -265,27 +270,34 @@ main {
 .iconos-proyectos {
   width: 300px;
   height: 330px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: solid 2px rgba(128, 128, 128, 0.342);
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.iconos-proyectos {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
+.iconos-proyectos:hover {
+  border: solid 2px #b59ac5;
+  border-radius: 10px;
 }
 
-.iconos-proyectos > img {
+.iconos-proyectos img {
   width: 300px;
   height: 200px;
+  padding: 10px;
 }
 
 .contacto {
   width: 80%;
   display: flex;
   justify-content: space-around;
+  margin-top: 200px;
 }
 
 .contacto h2 {
