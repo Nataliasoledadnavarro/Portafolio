@@ -1,16 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
-html,
 body {
   width: 100%;
   margin: 0%;
-  padding: 0%;
   font-family: "Montserrat Alternates", sans-serif;
 }
 
-header {
+nav {
   position: fixed;
   margin: 0%;
   padding: 0%;
@@ -18,7 +12,7 @@ header {
   background-color: white;
 }
 
-nav {
+.nav {
   width: 100%;
   display: flex;
   align-items: center;
