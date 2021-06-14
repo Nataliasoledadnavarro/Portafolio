@@ -337,26 +337,24 @@ main {
 .redes .fab {
   font-size: 1.2rem;
   color: #b59ac5;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   margin-right: 10px;
-  margin-bottom: 10px;
 }
 .redes .fas {
   font-size: 1.2rem;
   color: #b59ac5;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .redes .fab:hover {
@@ -377,10 +375,12 @@ main {
 
 .redes a {
   text-decoration: none;
-  color: rgb(73, 68, 68);
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .redes a:hover {
@@ -388,13 +388,12 @@ main {
 }
 
 .redes a:active {
-  width: auto;
+  width: 270px;
   height: 40px;
   border: solid 2px #b59ac5;
   border-radius: 40px;
   box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
 }
- /*modificar el movimiento de los iconos*/
 
 .form h2 {
   width: 500px;
