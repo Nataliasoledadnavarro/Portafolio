@@ -476,12 +476,16 @@ footer {
   margin-top: 100px;
 }
 
-footer ul {
-  width: 35%;
+.footer-secciones {
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0%;
+}
+
+.boton-footer:hover {
+  color: white;
 }
 
 ul a {
@@ -496,8 +500,10 @@ li {
 
 .iconos {
   width: 25%;
-  padding: 0%;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
+  padding: 0%;
 }
 
 .iconos li {
@@ -507,14 +513,13 @@ li {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.iconos img {
-  width: 25px;
-  height: 25px;
-  padding-top: 3px;
-} /*como cambiar el color svg?*/
+.iconos i {
+  font-size: 1.2rem;
+  color: #625164;
+}
 
 .iconos li:hover {
   background-color: #b59ac5;
@@ -529,10 +534,6 @@ footer p {
   font-size: 1rem;
 }
 
-span {
-  color: red;
-  font-size: 1.2rem;
-}
 
 @media screen and (max-width: 1100px) {
   body {
