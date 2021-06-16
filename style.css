@@ -544,6 +544,7 @@ footer p {
   }
 
   .presentacion {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -563,11 +564,14 @@ footer p {
   }
 
   .presentacion > img {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .cita {
     height: 700px;
+  }
+  .proyecto-imagenes {
+    justify-content: center;
   }
 
   .contacto {
