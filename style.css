@@ -575,7 +575,9 @@ footer p {
     width: 100%;
   }
 
-  .contacto div{margin-left: 18px;}
+  .contacto div {
+    margin-left: 18px;
+  }
 
   .redes {
     width: 100%;
@@ -583,10 +585,20 @@ footer p {
     flex-wrap: wrap;
   }
 
-  .redes a{font-size: 0.9rem;}
-
+  .redes a {
+    font-size: 0.9rem;
+  }
 
   form {
-    width: 50%;
+    width: 100%;
+  }
+
+  form h2 {
+    margin-left: 10px;
+  }
+
+  input[type="submit"] {
+    margin-top: 30px;
+    margin-left: 20px;
   }
 }
