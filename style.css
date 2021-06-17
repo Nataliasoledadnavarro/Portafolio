@@ -63,7 +63,7 @@ li {
   border-radius: 40px;
 }
 .link-contacto-nav:hover {
-  background-color: #c2a2d4;
+  background-color: #b59ac5d7;
 }
 
 .link-contacto-nav a:hover{ color: black;}
@@ -126,19 +126,19 @@ main {
   height: 50px;
   background-color: #625164;
   border-radius: 40px;
-  padding: 12px 18px;
-  border: none;
   margin-top: 30px;
-}
-
-.link-presentacion:hover {
-  background-color: #b59ac5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .link-presentacion > a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color:white;
+}
+.link-presentacion:hover {
+  background-color:#625164cc;
 }
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
@@ -561,15 +561,10 @@ footer p {
     justify-content: center;
   }
 
-  .texto {
+  .texto-presentacion {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
     flex-direction: column;
-  }
-
-  .texto > h1,
-  .texto > p {
     text-align: center;
   }
 
@@ -613,6 +608,10 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
+
+  .texto-presentacion h2{font-size: 2rem;}
+  .texto-presentacion h1{font-size: 3rem; margin-top: 25px;}
+  
   .contacto-texto {
     width: 500px;
   }
