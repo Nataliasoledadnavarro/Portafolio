@@ -8,7 +8,7 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
- /*//////ESTILOS DEL NAV///////*/
+/*//////ESTILOS DEL NAV///////*/
 nav {
   position: fixed;
   margin: 0%;
@@ -29,45 +29,46 @@ nav ul {
   width: 80%;
   display: flex;
   justify-content: flex-end;
-  text-decoration: none;
 }
 
-.botonnav,
-.boton-contacto {
-  text-decoration: none;
-  border: white;
-  border-radius: 40px;
+li {
+  list-style: none;
+}
+
+.link-nav {
   padding: 12px 20px;
   margin-left: 20px;
 }
 
-.botonnav > a,
-.boton-contacto > a {
+.link-nav a {
   text-decoration: none;
-  color: black;
   font-size: 1rem;
-  font-weight: 100;
+  color: black;
 }
 
-.boton-contacto > a {
+.link-contacto-nav > a {
   color: white;
 }
 
-.boton-contacto {
+.link-contacto-nav {
   background-color: #b59ac5;
+  border-radius: 40px;
 }
 
-.botonnav :hover {
+.link-nav :hover {
   color: #b59ac5;
 }
-.botonnav:active {
+.link-nav:active {
   box-shadow: rgba(139, 29, 153, 0.521) 0px 3px 8px;
+  border-radius: 40px;
 }
-.boton-contacto:hover {
+.link-contacto-nav:hover {
   background-color: #c2a2d4;
 }
 
-.boton-contacto:active {
+.link-contacto-nav a:hover{ color: black;}
+
+.link-contacto-nav :active {
   box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
 }
 
@@ -95,20 +96,20 @@ main {
   width: 50%;
 }
 
-.texto > h2 {
+.texto-presentacion > h2 {
   font-size: 2rem;
   margin-bottom: 0%;
   color: #625164;
 }
 
-.texto > h1 {
+.texto-presentacion > h1 {
   font-size: 4rem;
   color: #b59ac5;
   margin-top: 1%;
   margin-bottom: 5%;
 }
 
-.texto > p {
+.texto-presentacion > p {
   font-size: 1rem;
   font-weight: 400;
   margin-top: 0%;
@@ -120,7 +121,7 @@ main {
   height: 25em;
 }
 
-.hago {
+.link-presentacion {
   width: 180px;
   height: 50px;
   background-color: #625164;
@@ -130,11 +131,11 @@ main {
   margin-top: 30px;
 }
 
-.hago:hover {
+.link-presentacion:hover {
   background-color: #b59ac5;
 }
 
-.hago > a {
+.link-presentacion > a {
   text-decoration: none;
   font-size: 1rem;
   color: white;
@@ -308,7 +309,8 @@ main {
   padding: 10px;
 }
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
-.contacto { width:70%;
+.contacto {
+  width: 70%;
   display: flex;
   margin: 40px;
 }
@@ -328,7 +330,7 @@ form {
 .contacto-texto p {
   width: 80%;
   color: rgb(109, 106, 106);
-  font-weight:500;
+  font-weight: 500;
 }
 
 .redes {
@@ -493,21 +495,17 @@ footer {
   padding: 0%;
 }
 
-.boton-footer:hover {
+.link-footer:hover {
   color: white;
+  font-size: 1rem;
 }
 
-ul a {
+.footer-secciones a {
   text-decoration: none;
   color: #b59ac5;
 }
 
-li {
-  list-style: none;
-  font-size: 1rem;
-}
-
-.iconos {
+.iconos-footer {
   width: 25%;
   display: flex;
   align-items: center;
@@ -515,7 +513,7 @@ li {
   padding: 0%;
 }
 
-.iconos li {
+.iconos-footer li {
   background-color: white;
   width: 45px;
   height: 45px;
@@ -525,16 +523,16 @@ li {
   justify-content: space-around;
 }
 
-.iconos i {
+.iconos-footer i {
   font-size: 1.2rem;
   color: #625164;
 }
 
-.iconos li:hover {
+.iconos-footer li:hover {
   background-color: #b59ac5;
   border: solid 1px white;
 }
-.iconos li:active {
+.iconos-footer li:active {
   box-shadow: rgba(255, 254, 254, 0.849) 0px 5px 15px;
 }
 
