@@ -490,7 +490,7 @@ footer {
 }
 
 .footer-secciones {
-  width: 40%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -508,7 +508,7 @@ footer {
 }
 
 .iconos-footer {
-  width: 25%;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -607,6 +607,13 @@ footer p {
     margin-top: 30px;
     margin-left: 20px;
   }
+  .footer-secciones {
+    width: 40%;
+  }
+
+  .iconos-footer {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -632,5 +639,19 @@ footer p {
   .nombre,
   .apellido {
     width: 100%;
+  }
+
+  .footer-secciones {
+    width: 60%;
+  }
+
+  .iconos-footer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-secciones {
+    display: none;
   }
 }
