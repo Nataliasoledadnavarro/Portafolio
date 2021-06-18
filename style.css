@@ -140,6 +140,10 @@ main {
   background-color: #625164cc;
 }
 
+.link-presentacion:active {
+  box-shadow: rgba(233, 132, 233, 0.76) 0px 8px 8px;
+}
+
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
 .conocimientos {
   width: 90%;
