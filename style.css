@@ -1,11 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   width: 100%;
   margin: 0%;
   font-family: "Montserrat Alternates", sans-serif;
+  box-sizing: border-box;
 }
 
 /*//////ESTILOS DEL NAV///////*/
@@ -278,7 +275,7 @@ main {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .iconos-proyectos {
@@ -296,6 +293,9 @@ main {
   margin: 10px;
 }
 
+.icono-proyecto-alineado{justify-content:space-evenly;} /*resolver alineacion*/
+  
+ }
 .iconos-proyectos:hover {
   border: solid 2px #b59ac5;
   border-radius: 10px;
@@ -415,14 +415,16 @@ form {
   margin-bottom: 5%;
 }
 
-.nombre-y-apellido {
+.nombre-y-apellido,
+.mail {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .nombre,
 .apellido {
-  width: 40%;
+  width: 50%;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -433,6 +435,8 @@ textarea {
   border: none;
   margin: 5px;
   padding: 10px;
+  background-color: #b59ac56e;
+  border-radius: 10px;
 }
 
 form .mail,
@@ -443,14 +447,14 @@ form .mail,
 }
 
 textarea {
-  width: 500px;
+  width: 100%;
   height: 180px;
   margin-top: 20px;
 }
 
 input:focus {
   border: solid 2px #b59ac5;
-  border-radius: 40px;
+  border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
@@ -636,8 +640,10 @@ footer p {
     height: 130px;
     flex-direction: column;
   }
-  .nombre,
-  .apellido {
+
+  form{width: 80%;}
+
+  .nombre, .apellido {
     width: 100%;
   }
 
@@ -651,7 +657,15 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+
   .footer-secciones {
     display: none;
+  }
+  .iconos-footer {
+    width: 70%;
+  }
+  .iconos-footer li {
+    width: 40px;
+    height: 40px;
   }
 }
