@@ -142,7 +142,7 @@ main {
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
 .conocimientos {
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,7 +159,7 @@ main {
   flex-direction: column;
 }
 
-.desarrollo > h1 {
+.desarrollo > h2 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 20px;
@@ -172,8 +172,8 @@ main {
   margin-top: 10px;
 }
 
-.contenido {
-  width: 90%;
+.contenido-conocimientos {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -183,7 +183,7 @@ main {
 
 .lenguajes {
   width: 250px;
-  height: 250px;
+  height: 230px;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -321,7 +321,7 @@ form {
 
 .contacto h2 {
   width: 500px;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 5%;
 }
@@ -584,6 +584,10 @@ footer p {
   .conocimientos {
     margin-top: 20px;
   }
+
+  .contenido-conocimientos {
+    width: 90%;
+  }
   .contacto {
     flex-direction: column;
     width: 90%;
@@ -600,6 +604,9 @@ footer p {
     margin-left: 10px;
   }
 
+  form {
+    width: 70%;
+  }
   input[type="submit"] {
     margin-top: 30px;
     margin-left: 20px;
@@ -621,7 +628,6 @@ footer p {
     font-size: 3rem;
     margin-top: 25px;
   }
-
   .proyecto-imagenes {
     justify-content: center;
   }
@@ -654,6 +660,10 @@ footer p {
   .iconos-footer {
     width: 50%;
   }
+
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -668,12 +678,25 @@ footer p {
     height: 40px;
   }
 
+  h2 {
+    font-size: 2rem;
+  }
 }
 
-/*
+@media screen and (max-width: 550px) {
+  .contenido-conocimientos {
+    width: 100%;
+  }
+  .lenguajes {
+    width: 180px;
+    height: 150px;
+  }
 
-.contenido{ 600px queda en dos columnas
-  400px pasa a dos columnas          
-  300px queda en una columna
-  500px caqmbia el tamaño de las tarjetas
-            900px 3 columnas
+  .derarrollo p {
+    width: 80%;
+  }
+
+  form {
+    width: 90%;
+  }
+}
