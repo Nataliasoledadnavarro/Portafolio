@@ -142,7 +142,7 @@ main {
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
 .conocimientos {
-  width: 90%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,7 +173,7 @@ main {
 }
 
 .contenido {
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -182,8 +182,8 @@ main {
 }
 
 .lenguajes {
-  width: 220px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -209,6 +209,8 @@ main {
   border-radius: 10px;
 }
 
+/*//////ESTILOS SECCIÓN CITA///////*/
+
 .cita {
   width: 100%;
   height: 450px;
@@ -226,8 +228,6 @@ main {
   font-size: 6rem;
   color: white;
 }
-
-/*//////ESTILOS SECCIÓN CITA///////*/
 .cita > p {
   width: 60%;
   font-size: 1.8rem;
@@ -667,4 +667,13 @@ footer p {
     width: 40px;
     height: 40px;
   }
+
 }
+
+/*
+
+.contenido{ 600px queda en dos columnas
+  400px pasa a dos columnas          
+  300px queda en una columna
+  500px caqmbia el tamaño de las tarjetas
+            900px 3 columnas
