@@ -275,7 +275,7 @@ main {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .iconos-proyectos {
@@ -293,9 +293,6 @@ main {
   margin: 10px;
 }
 
-.icono-proyecto-alineado{justify-content:space-evenly;} /*resolver alineacion*/
-  
- }
 .iconos-proyectos:hover {
   border: solid 2px #b59ac5;
   border-radius: 10px;
@@ -584,10 +581,6 @@ footer p {
     padding-bottom: 20px;
   }
 
-  .proyecto-imagenes {
-    justify-content: center;
-  }
-
   .conocimientos {
     margin-top: 20px;
   }
@@ -629,6 +622,10 @@ footer p {
     margin-top: 25px;
   }
 
+  .proyecto-imagenes {
+    justify-content: center;
+  }
+
   .contacto-texto {
     width: 500px;
   }
@@ -641,9 +638,12 @@ footer p {
     flex-direction: column;
   }
 
-  form{width: 80%;}
+  form {
+    width: 80%;
+  }
 
-  .nombre, .apellido {
+  .nombre,
+  .apellido {
     width: 100%;
   }
 
@@ -657,7 +657,6 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-
   .footer-secciones {
     display: none;
   }
