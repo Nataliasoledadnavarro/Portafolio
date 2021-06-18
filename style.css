@@ -315,7 +315,10 @@ main {
 .contacto {
   width: 70%;
   display: flex;
-  margin: 40px;
+  margin-top: 150px;
+  border: solid 1px rgba(128, 128, 128, 0.301);
+  padding: 50px;
+  border-radius: 10px;
 }
 
 .contacto-texto,
@@ -637,7 +640,7 @@ footer p {
   }
 
   .contacto-texto {
-    width: 500px;
+    width: 70%;
   }
   .redes {
     height: 200px;
@@ -699,8 +702,12 @@ footer p {
   .derarrollo p {
     width: 80%;
   }
+  .contacto-texto p {
+    width: 300px;
+  }
 
-  form {
-    width: 90%;
+  input,
+  textarea {
+    width: 300px;
   }
 }
