@@ -55,20 +55,13 @@ li {
 .link-nav :hover {
   color: #b59ac5;
 }
-.link-nav:active {
-  box-shadow: rgba(139, 29, 153, 0.521) 0px 3px 8px;
-  border-radius: 40px;
-}
+
 .link-contacto-nav:hover {
   background-color: #b59ac5d7;
 }
 
 .link-contacto-nav a:hover {
   color: black;
-}
-
-.link-contacto-nav :active {
-  box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
 }
 
 /*//////ESTILOS DEL MAIN///////*/
