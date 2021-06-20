@@ -6,7 +6,7 @@ body {
 }
 
 /*//////ESTILOS DEL NAV///////*/
-nav {
+.nav-superior {
   position: fixed;
   margin: 0%;
   padding: 0%;
@@ -493,6 +493,12 @@ footer {
   justify-content: center;
   flex-direction: column;
   margin-top: 100px;
+}
+
+.nav-inferior {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-secciones {
