@@ -403,8 +403,9 @@ form {
 }
 
 .redes a:active {
-  width: 270px;
-  height: 40px;
+  width: auto;
+  height: 30px;
+  padding: 5px;
   border: solid 2px #b59ac5;
   border-radius: 40px;
   box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
@@ -419,8 +420,8 @@ form {
   margin-bottom: 5%;
 }
 
-.nombre-y-apellido
- {width: 100%;
+.nombre-y-apellido {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -444,7 +445,6 @@ textarea {
 form .mail,
 .mensaje {
   margin-top: 30px;
-
 }
 
 textarea {
@@ -454,7 +454,7 @@ textarea {
 
 input:focus {
   outline: none;
-  border:solid 2px #b59ac5;
+  border: solid 2px #b59ac5;
   border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -466,7 +466,7 @@ textarea:focus {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   border-radius: 20px;
-} 
+}
 
 input[type="submit"] {
   padding: 15px;
@@ -549,7 +549,16 @@ footer p {
   font-size: 1rem;
 }
 
+/*//////ESTILOS GENERALES///////*/
 
+a:focus {
+  outline: none;
+  border: solid 2px#b59ac5;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 20px;
+  padding: 10px;
+}
 
 /*//////ESTILOS RESPONSIVE///////*/
 
@@ -702,6 +711,7 @@ footer p {
     width: 300px;
   }
 
-  form{width: 100%;}
-
+  form {
+    width: 100%;
+  }
 }
