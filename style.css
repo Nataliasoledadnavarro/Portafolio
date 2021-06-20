@@ -28,10 +28,6 @@ nav ul {
   justify-content: flex-end;
 }
 
-li {
-  list-style: none;
-}
-
 .link-nav {
   padding: 12px 20px;
   margin-left: 20px;
@@ -557,6 +553,10 @@ a:focus {
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   border-radius: 20px;
   padding: 10px;
+}
+
+li {
+  list-style: none;
 }
 
 /*//////ESTILOS RESPONSIVE///////*/
