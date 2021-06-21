@@ -39,25 +39,21 @@ nav ul {
   color: black;
 }
 
-.link-contacto-nav > a {
-  color: white;
-}
-
 .link-contacto-nav {
-  background-color: #b59ac5;
+  background-color:#B59AC5;
   border-radius: 40px;
 }
 
 .link-nav :hover {
-  color: #b59ac5;
+  color:#806E81;
 }
 
 .link-contacto-nav:hover {
-  background-color: #b59ac5d7;
+  background-color:#806E81;
 }
 
 .link-contacto-nav a:hover {
-  color: black;
+  color:white;
 }
 
 /*//////ESTILOS DEL MAIN///////*/
@@ -87,12 +83,12 @@ main {
 .texto-presentacion > h2 {
   font-size: 2rem;
   margin-bottom: 0%;
-  color: #625164;
+  color:#806E81;
 }
 
 .texto-presentacion > h1 {
   font-size: 4rem;
-  color: #b59ac5;
+  color: #625164;
   margin-top: 1%;
   margin-bottom: 5%;
 }
@@ -112,7 +108,7 @@ main {
 .link-presentacion {
   width: 180px;
   height: 50px;
-  background-color: #625164;
+  background-color:#B59AC5;
   border-radius: 40px;
   margin-top: 30px;
   display: flex;
@@ -123,14 +119,17 @@ main {
 .link-presentacion > a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color: black;
 }
 .link-presentacion:hover {
-  background-color: #625164cc;
+  background-color:#806E81;
+}
+.link-presentacion a:hover {
+  color:white;
 }
 
 .link-presentacion:active {
-  box-shadow: rgba(233, 132, 233, 0.76) 0px 8px 8px;
+  box-shadow: rgba(165, 160, 160, 0.76) 0px 8px 8px;
 }
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
@@ -212,14 +211,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #625164;
   margin-top: 150px;
 }
 
 .fa-quote-right {
   text-align: center;
   font-size: 6rem;
-  color: white;
+  color:black;
 }
 .cita > p {
   width: 60%;
@@ -340,7 +338,7 @@ form {
 
 .redes .fab {
   font-size: 1.2rem;
-  color: #b59ac5;
+  color:#625164 ;
   width: 30px;
   height: 30px;
   display: flex;
@@ -351,7 +349,7 @@ form {
 }
 .redes .fas {
   font-size: 1.2rem;
-  color: #b59ac5;
+  color:#625164 ;
   width: 30px;
   height: 30px;
   display: flex;
@@ -362,7 +360,7 @@ form {
 }
 
 .redes .fab:hover {
-  background-color: #b59ac5;
+  background-color: #625164;
   color: white;
   display: flex;
   align-items: center;
@@ -370,7 +368,7 @@ form {
 }
 
 .redes .fas:hover {
-  background-color: #b59ac5;
+  background-color: #625164;
   color: white;
   display: flex;
   align-items: center;
@@ -387,9 +385,7 @@ form {
   margin-left: 10px;
 }
 
-.redes a:hover {
-  color: #b59ac5;
-}
+.redes a:hover{color:#806E81;}
 
 .redes a:active {
   width: auto;
@@ -471,6 +467,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #b59ac5;
+  color: black;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
@@ -501,14 +498,11 @@ footer {
   padding: 0%;
 }
 
-.link-footer:hover {
-  color: white;
-  font-size: 1rem;
-}
+
 
 .footer-secciones a {
   text-decoration: none;
-  color: #b59ac5;
+  color: white;
 }
 
 .iconos-footer {
@@ -535,15 +529,17 @@ footer {
 }
 
 .iconos-footer li:hover {
-  background-color: #b59ac5;
-  border: solid 1px white;
+  background-color: #625164;
+  border: solid 1px white;}
+
+.iconos-footer i:hover{color:white;}
 }
 .iconos-footer li:active {
   box-shadow: rgba(255, 254, 254, 0.849) 0px 5px 15px;
 }
 
 footer p {
-  color: #b59ac5;
+  color: white;
   font-size: 1rem;
 }
 
