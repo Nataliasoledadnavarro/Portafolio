@@ -401,12 +401,20 @@ form {
 }
 
 /*//////ESTILOS DEL FORMULARIO///////*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 .form h2 {
   width: 500px;
   font-size: 3rem;
   font-weight: bold;
   margin-right: 50px;
   margin-bottom: 5%;
+}
+label {
+  margin-top: 30px;
 }
 
 .nombre-y-apellido {
@@ -415,8 +423,8 @@ form {
   justify-content: space-between;
 }
 
-.nombre,
-.apellido {
+.nombre-y-apellido label {
+  margin-top: 0%;
   width: 45%;
   height: 50px;
 }
@@ -429,11 +437,6 @@ textarea {
   padding: 10px;
   background-color: #b59ac56e;
   border-radius: 10px;
-}
-
-form .mail,
-.mensaje {
-  margin-top: 30px;
 }
 
 textarea {
@@ -659,8 +662,7 @@ li {
     flex-direction: column;
   }
 
-  .nombre,
-  .apellido {
+  .nombre-y-apellido label {
     width: 100%;
   }
 
@@ -678,6 +680,10 @@ li {
 }
 
 @media screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+
   .footer-secciones {
     display: none;
   }
@@ -687,10 +693,6 @@ li {
   .iconos-footer li {
     width: 40px;
     height: 40px;
-  }
-
-  h2 {
-    font-size: 2rem;
   }
 }
 
