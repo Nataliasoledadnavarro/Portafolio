@@ -40,20 +40,20 @@ nav ul {
 }
 
 .link-contacto-nav {
-  background-color:#B59AC5;
+  background-color: #b59ac5;
   border-radius: 40px;
 }
 
 .link-nav :hover {
-  color:#806E81;
+  color: #806e81;
 }
 
 .link-contacto-nav:hover {
-  background-color:#806E81;
+  background-color: #806e81;
 }
 
 .link-contacto-nav a:hover {
-  color:white;
+  color: white;
 }
 
 /*//////ESTILOS DEL MAIN///////*/
@@ -81,20 +81,20 @@ main {
 }
 
 .texto-presentacion > h2 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 0%;
-  color:#806E81;
+  color: #806e81;
 }
 
 .texto-presentacion > h1 {
-  font-size: 4rem;
+  font-size: 4em;
   color: #625164;
   margin-top: 1%;
   margin-bottom: 5%;
 }
 
 .texto-presentacion > p {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 400;
   margin-top: 0%;
   color: rgb(83, 81, 81);
@@ -108,7 +108,7 @@ main {
 .link-presentacion {
   width: 180px;
   height: 50px;
-  background-color:#B59AC5;
+  background-color: #b59ac5;
   border-radius: 40px;
   margin-top: 30px;
   display: flex;
@@ -118,14 +118,14 @@ main {
 
 .link-presentacion > a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1em;
   color: black;
 }
 .link-presentacion:hover {
-  background-color:#806E81;
+  background-color: #806e81;
 }
 .link-presentacion a:hover {
-  color:white;
+  color: white;
 }
 
 .link-presentacion:active {
@@ -216,12 +216,12 @@ main {
 
 .fa-quote-right {
   text-align: center;
-  font-size: 6rem;
-  color:black;
+  font-size: 6em;
+  color: black;
 }
 .cita > p {
   width: 60%;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 50px;
@@ -251,7 +251,7 @@ main {
   margin-bottom: 30px;
 }
 .proyecto-texto > h2 {
-  font-size: 3rem;
+  font-size: 3em;
   text-align: center;
   margin-top: 0%;
 }
@@ -263,7 +263,7 @@ main {
 }
 
 .proyecto-imagenes {
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -271,7 +271,7 @@ main {
 
 .iconos-proyectos {
   width: 300px;
-  height: 330px;
+  height: 300px;
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
@@ -283,6 +283,13 @@ main {
   border-radius: 10px;
   margin: 10px;
 }
+.iconos-proyectos img {
+  width: 90%;
+  height: 60%;
+  padding: 10px;
+}
+
+.iconos-proyectos p{text-align: center;}
 
 .iconos-proyectos:hover {
   border: solid 2px #b59ac5;
@@ -293,11 +300,6 @@ main {
   box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
 }
 
-.iconos-proyectos img {
-  width: 300px;
-  height: 200px;
-  padding: 10px;
-}
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
 .contacto {
   width: 70%;
@@ -314,8 +316,7 @@ form {
 }
 
 .contacto h2 {
-  width: 500px;
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: bold;
   margin-bottom: 5%;
 }
@@ -337,8 +338,8 @@ form {
 }
 
 .redes .fab {
-  font-size: 1.2rem;
-  color:#625164 ;
+  font-size: 1.2em;
+  color: #625164;
   width: 30px;
   height: 30px;
   display: flex;
@@ -348,8 +349,8 @@ form {
   margin-right: 10px;
 }
 .redes .fas {
-  font-size: 1.2rem;
-  color:#625164 ;
+  font-size: 1.2em;
+  color: #625164;
   width: 30px;
   height: 30px;
   display: flex;
@@ -385,7 +386,9 @@ form {
   margin-left: 10px;
 }
 
-.redes a:hover{color:#806E81;}
+.redes a:hover {
+  color: #806e81;
+}
 
 .redes a:active {
   width: auto;
@@ -404,7 +407,7 @@ form {
 
 .form h2 {
   width: 500px;
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: bold;
   margin-right: 50px;
   margin-bottom: 5%;
@@ -462,7 +465,7 @@ input[type="submit"] {
   background-color: #625164;
   border-radius: 20px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 input[type="submit"]:hover {
@@ -498,8 +501,6 @@ footer {
   padding: 0%;
 }
 
-
-
 .footer-secciones a {
   text-decoration: none;
   color: white;
@@ -524,16 +525,19 @@ footer {
 }
 
 .iconos-footer i {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #625164;
 }
 
 .iconos-footer li:hover {
   background-color: #625164;
-  border: solid 1px white;}
-
-.iconos-footer i:hover{color:white;}
+  border: solid 1px white;
 }
+
+.iconos-footer i:hover {
+  color: white;
+}
+
 .iconos-footer li:active {
   box-shadow: rgba(255, 254, 254, 0.849) 0px 5px 15px;
 }
@@ -561,11 +565,7 @@ li {
 /*//////ESTILOS RESPONSIVE///////*/
 
 @media screen and (max-width: 1100px) {
-  body {
-    font-size: 14px;
-  }
-
-  nav {
+  nav.superior {
     display: none;
   }
 
@@ -602,6 +602,11 @@ li {
   .contenido-conocimientos {
     width: 90%;
   }
+
+  .proyecto-imagenes {
+    width: 100%;
+  }
+
   .contacto {
     flex-direction: column;
     width: 90%;
@@ -642,9 +647,6 @@ li {
     font-size: 3rem;
     margin-top: 25px;
   }
-  .proyecto-imagenes {
-    justify-content: center;
-  }
 
   .contacto-texto {
     width: 70%;
@@ -663,7 +665,7 @@ li {
   }
 
   .footer-secciones {
-    width: 60%;
+    width: 70%;
   }
 
   .iconos-footer {
@@ -675,10 +677,18 @@ li {
   }
 }
 
-@media screen and (max-width: 600px) {
-  h2 {
-    font-size: 2rem;
+@media screen and (max-width: 645px) {
+
+  .proyecto-imagenes {
+    justify-content: center;
   }
+
+  .iconos-proyectos {
+    width: 380px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 600px) {
 
   .footer-secciones {
     display: none;
@@ -693,6 +703,7 @@ li {
 }
 
 @media screen and (max-width: 550px) {
+
   .contenido-conocimientos {
     width: 100%;
   }
@@ -703,6 +714,11 @@ li {
 
   .derarrollo p {
     width: 80%;
+  }
+
+  .iconos-proyectos {
+    width: 250px;
+    height: 250px;
   }
   .contacto-texto p {
     width: 300px;
