@@ -639,7 +639,7 @@ li {
     margin-left: 20px;
   }
   .footer-secciones {
-    width: 40%;
+    width: 50%;
   }
 
   .iconos-footer {
@@ -648,6 +648,8 @@ li {
 }
 
 @media screen and (max-width: 900px) {
+
+  html{font-size:12px ;}
   .texto-presentacion h2 {
     font-size: 2rem;
   }
@@ -729,7 +731,7 @@ li {
     height: 300px;
   }
   .contacto-texto p {
-    width: 300px;
+    width: 250px;
   }
 
   form {
