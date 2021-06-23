@@ -81,28 +81,28 @@ main {
 }
 
 .texto-presentacion > h2 {
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 0%;
   color: #806e81;
 }
 
 .texto-presentacion > h1 {
-  font-size: 4em;
+  font-size: 4rem;
   color: #625164;
   margin-top: 1%;
   margin-bottom: 5%;
 }
 
 .texto-presentacion > p {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 400;
   margin-top: 0%;
   color: rgb(83, 81, 81);
 }
 
 .presentacion > img {
-  width: 25em;
-  height: 25em;
+  width: 25rem;
+  height: 25rem;
 }
 
 .link-presentacion {
@@ -118,7 +118,7 @@ main {
 
 .link-presentacion > a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   color: black;
 }
 .link-presentacion:hover {
@@ -184,8 +184,8 @@ main {
 }
 
 .lenguajes > img {
-  width: 5em;
-  height: 5em;
+  width: 5rem;
+  height: 5rem;
   margin-bottom: 0;
 }
 
@@ -216,12 +216,12 @@ main {
 
 .fa-quote-right {
   text-align: center;
-  font-size: 6em;
+  font-size: 6rem;
   color: black;
 }
 .cita > p {
   width: 60%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 50px;
@@ -251,7 +251,7 @@ main {
   margin-bottom: 30px;
 }
 .proyecto-texto > h2 {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   margin-top: 0%;
 }
@@ -263,7 +263,7 @@ main {
 }
 
 .proyecto-imagenes {
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -289,7 +289,9 @@ main {
   padding: 10px;
 }
 
-.iconos-proyectos p{text-align: center;}
+.iconos-proyectos p {
+  text-align: center;
+}
 
 .iconos-proyectos:hover {
   border: solid 2px #b59ac5;
@@ -316,7 +318,7 @@ form {
 }
 
 .contacto h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 5%;
 }
@@ -349,7 +351,7 @@ form {
   margin-right: 10px;
 }
 .redes .fas {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #625164;
   width: 30px;
   height: 30px;
@@ -407,7 +409,7 @@ form {
 
 .form h2 {
   width: 500px;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
   margin-right: 50px;
   margin-bottom: 5%;
@@ -465,7 +467,7 @@ input[type="submit"] {
   background-color: #625164;
   border-radius: 20px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 input[type="submit"]:hover {
@@ -525,7 +527,7 @@ footer {
 }
 
 .iconos-footer i {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #625164;
 }
 
@@ -564,8 +566,14 @@ li {
 
 /*//////ESTILOS RESPONSIVE///////*/
 
+@media screen and (max-width: 1300px) {
+  .proyecto-imagenes {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 1100px) {
-  nav.superior {
+  .nav-superior {
     display: none;
   }
 
@@ -647,6 +655,9 @@ li {
     font-size: 3rem;
     margin-top: 25px;
   }
+  .proyecto-imagenes {
+    width: 80%;
+  }
 
   .contacto-texto {
     width: 70%;
@@ -676,20 +687,18 @@ li {
     font-size: 2.5rem;
   }
 }
-
-@media screen and (max-width: 645px) {
-
+@media screen and (max-width: 810px) {
   .proyecto-imagenes {
     justify-content: center;
+    width: 100%;
   }
-
   .iconos-proyectos {
     width: 380px;
     height: 380px;
   }
 }
-@media screen and (max-width: 600px) {
 
+@media screen and (max-width: 600px) {
   .footer-secciones {
     display: none;
   }
@@ -703,7 +712,6 @@ li {
 }
 
 @media screen and (max-width: 550px) {
-
   .contenido-conocimientos {
     width: 100%;
   }
@@ -717,8 +725,8 @@ li {
   }
 
   .iconos-proyectos {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .contacto-texto p {
     width: 300px;
