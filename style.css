@@ -34,21 +34,21 @@ nav ul {
 }
 
 .link-nav a {
-  text-decoration: none;
   font-size: 1rem;
   color: black;
 }
 
-.link-contacto-nav {
+.link-contacto-nav a {
   background-color: #b59ac5;
   border-radius: 40px;
+  padding: 10px 20px;
 }
 
 .link-nav :hover {
   color: #806e81;
 }
 
-.link-contacto-nav:hover {
+.link-contacto-nav a:hover {
   background-color: #806e81;
 }
 
@@ -105,7 +105,7 @@ main {
   height: 25rem;
 }
 
-.link-presentacion {
+.link-presentacion a {
   width: 180px;
   height: 50px;
   display: flex;
@@ -114,21 +114,16 @@ main {
   background-color: #b59ac5;
   border-radius: 40px;
   margin-top: 30px;
-}
-
-.link-presentacion > a {
-  text-decoration: none;
   font-size: 1rem;
   color: black;
 }
-.link-presentacion:hover {
-  background-color: #806e81;
-}
+
 .link-presentacion a:hover {
+  background-color: #806e81;
   color: white;
 }
 
-.link-presentacion:active {
+.link-presentacion a:active {
   box-shadow: rgba(165, 160, 160, 0.76) 0px 8px 8px;
 }
 
@@ -379,7 +374,6 @@ form {
 }
 
 .redes a {
-  text-decoration: none;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -390,15 +384,6 @@ form {
 
 .redes a:hover {
   color: #806e81;
-}
-
-.redes a:active {
-  width: auto;
-  height: 30px;
-  padding: 5px;
-  border: solid 2px #b59ac5;
-  border-radius: 40px;
-  box-shadow: rgba(233, 132, 233, 0.76) 0px 3px 8px;
 }
 
 /*//////ESTILOS DEL FORMULARIO///////*/
@@ -504,7 +489,6 @@ footer {
 }
 
 .footer-secciones a {
-  text-decoration: none;
   color: white;
 }
 
@@ -516,7 +500,7 @@ footer {
   padding: 0%;
 }
 
-.iconos-footer li {
+.iconos-footer i {
   background-color: white;
   width: 45px;
   height: 45px;
@@ -524,23 +508,18 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
 
-.iconos-footer i {
   font-size: 1.2rem;
   color: #625164;
 }
 
-.iconos-footer li:hover {
+.iconos-footer i:hover {
   background-color: #625164;
   border: solid 1px white;
-}
-
-.iconos-footer i:hover {
   color: white;
 }
 
-.iconos-footer li:active {
+.iconos-footer i:active {
   box-shadow: rgba(255, 254, 254, 0.849) 0px 5px 15px;
 }
 
@@ -556,12 +535,16 @@ a:focus {
   border: solid 2px#b59ac5;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 40px;
+  padding: 5px;
 }
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*//////ESTILOS RESPONSIVE///////*/
