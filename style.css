@@ -334,7 +334,7 @@ form {
   align-items: flex-start;
 }
 
-.redes .fab {
+.contacto-redes i {
   font-size: 1.2em;
   color: #625164;
   width: 30px;
@@ -344,36 +344,10 @@ form {
   justify-content: center;
   border-radius: 50%;
   margin-right: 10px;
-}
-.redes .fas {
-  font-size: 1.2rem;
-  color: #625164;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin-right: 10px;
+  padding: 3px;
 }
 
-.redes .fab:hover {
-  background-color: #625164;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.redes .fas:hover {
-  background-color: #625164;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.redes a {
+.contacto-redes a {
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -382,8 +356,13 @@ form {
   margin-left: 10px;
 }
 
-.redes a:hover {
-  color: #806e81;
+.contacto-redes :hover {
+  color: #b59ac5;
+}
+
+.contacto-redes i:hover {
+  background-color: #625164;
+  color: white;
 }
 
 /*//////ESTILOS DEL FORMULARIO///////*/
@@ -490,6 +469,8 @@ footer {
 
 .footer-secciones a {
   color: white;
+  border-radius: 40px;
+  padding: 3px;
 }
 
 .iconos-footer {
@@ -508,7 +489,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
   font-size: 1.2rem;
   color: #625164;
 }
@@ -518,10 +498,7 @@ footer {
   border: solid 1px white;
   color: white;
 }
-
-.iconos-footer i:active {
-  box-shadow: rgba(255, 254, 254, 0.849) 0px 5px 15px;
-}
+/*resolver focus de los iconos*/
 
 footer p {
   color: white;
@@ -530,13 +507,14 @@ footer p {
 
 /*//////ESTILOS GENERALES///////*/
 
-a:focus {
+:focus {
   outline: none;
-  border: solid 2px#b59ac5;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  border-radius: 40px;
-  padding: 5px;
+  box-shadow: 0px 0px 7px #625164;
+}
+
+.nav-inferior :focus {
+  outline: none;
+  box-shadow: 0px 0px 7px white;
 }
 
 li {
