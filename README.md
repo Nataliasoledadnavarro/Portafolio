@@ -6,7 +6,7 @@ Es una página web con información sobre mi recorrido aprendiendo a programar.
 
 Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/)  🏃‍♀️
 ***
-####Podrás ver:
+#### Podrás ver:
 
 • Herramientas y aprendizajes incorporados.
 
@@ -16,7 +16,7 @@ Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/)  🏃�
 
 • Y más! 
 ***
-####Para llevar a cabo ésta pagina utilicé las siguientes tecnologías:
+#### Para llevar a cabo ésta pagina utilicé las siguientes tecnologías:
 
 • HTML
 
@@ -24,6 +24,6 @@ Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/)  🏃�
 
 ¡Se reciben aportes constructivos para seguir creciendo!
 
-💜__¡Gracias por pasar!__💜
+__💜¡Gracias por pasar!💜__
 
 Naty
