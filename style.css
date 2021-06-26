@@ -324,7 +324,6 @@ main {
 
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
 .contacto {
-  width: 70%;
   display: flex;
   margin-top: 150px;
   border: solid 1px rgba(128, 128, 128, 0.301);
@@ -350,13 +349,10 @@ form {
 }
 
 .redes {
-  width: 45%;
-  height: 200px;
   margin-top: 30px;
   padding: 0%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .contacto-redes i {
@@ -373,16 +369,15 @@ form {
 }
 
 .contacto-redes a {
-  color: rgb(0, 0, 0);
+  color: #625164;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .contacto-redes :hover {
-  color: #b59ac5;
+  color: black;
 }
 
 .contacto-redes i:hover {
@@ -603,23 +598,19 @@ a {
 
   .contacto {
     flex-direction: column;
-    width: 90%;
     margin-top: 50px;
   }
 
-  .redes {
+  .contacto-texto,
+  form {
     width: 100%;
+  }
+
+  .redes {
     height: 100px;
     flex-wrap: wrap;
   }
 
-  form h2 {
-    margin-left: 10px;
-  }
-
-  form {
-    width: 90%;
-  }
   input[type="submit"] {
     margin-top: 30px;
     margin-left: 20px;
@@ -646,13 +637,6 @@ a {
   }
   .proyecto-imagenes {
     width: 80%;
-  }
-
-  .contacto-texto {
-    width: 70%;
-  }
-  .redes {
-    height: 200px;
   }
 
   .nombre-y-apellido {
@@ -698,8 +682,12 @@ a {
     width: 40px;
     height: 40px;
   }
-}
 
+  .redes {
+    height: auto;
+    flex-wrap: nowrap;
+  }
+}
 @media screen and (max-width: 550px) {
   .contenido-conocimientos {
     width: 100%;
@@ -716,12 +704,5 @@ a {
   .iconos-proyectos {
     width: 300px;
     height: 300px;
-  }
-  .contacto-texto p {
-    width: 250px;
-  }
-
-  form {
-    width: 100%;
   }
 }
