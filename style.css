@@ -130,6 +130,7 @@ main {
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
 .conocimientos {
   width: 90%;
+  max-width: 1250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,31 +170,55 @@ main {
 }
 
 .lenguajes {
-  width: 250px;
-  height: 230px;
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.lenguajes > img {
-  width: 5rem;
-  height: 5rem;
-  margin-bottom: 0;
-}
-
-.lenguajes {
-  text-decoration: none;
-  color: black;
+  width: 250px;
+  height: 230px;
+  margin-top: 10px;
   border-radius: 10px;
   border: solid 2px rgba(192, 187, 187, 0.432);
+}
+
+.lenguajes p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .lenguajes:hover {
   border: solid 2px #b59ac5;
   border-radius: 10px;
+}
+
+.lenguajes > i {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3-alt {
+  color: rgb(90, 90, 241);
+}
+
+.fa-sass {
+  color: fuchsia;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-react {
+  color: rgb(93, 170, 241);
+}
+
+.fa-git-alt {
+  color: rgb(241, 90, 35);
 }
 
 /*//////ESTILOS SECCIÓN CITA///////*/
