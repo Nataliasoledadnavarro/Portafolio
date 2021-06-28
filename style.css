@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   margin: 0%;
   font-family: "Montserrat Alternates", sans-serif;
   box-sizing: border-box;
@@ -40,15 +39,15 @@ nav ul {
 
 .link-contacto-nav a:hover {
   background-color: #806e81;
+  color: white;
 }
 
-.link-contacto-nav a:hover {
-  color: white;
+.link-contacto-nav a:active {
+  background-color: #806e81d0;
 }
 
 /*//////ESTILOS DEL MAIN///////*/
 main {
-  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -115,7 +114,7 @@ main {
 }
 
 .link-presentacion a:active {
-  box-shadow: rgba(165, 160, 160, 0.76) 0px 8px 8px;
+  background-color: #806e81ec;
 }
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
@@ -318,7 +317,7 @@ main {
   display: flex;
   margin-top: 150px;
   border: solid 1px rgba(128, 128, 128, 0.301);
-  padding: 50px;
+  padding: 20px;
   border-radius: 10px;
 }
 
@@ -383,7 +382,6 @@ form {
 }
 
 .form h2 {
-  width: 500px;
   font-size: 3rem;
   font-weight: bold;
   margin-right: 50px;
@@ -448,8 +446,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #b59ac5;
   color: black;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+input[type="submit"]:active {
+  background-color: #b59ac5ec;
 }
 
 /*//////ESTILOS SECCIÓN FOOTER///////*/
@@ -470,11 +470,6 @@ footer {
   justify-content: center;
 }
 
-.nav-inferior :focus {
-  outline: none;
-  box-shadow: 0px 0px 7px white;
-}
-
 .footer-secciones {
   width: 45%;
   display: flex;
@@ -486,7 +481,7 @@ footer {
 .footer-secciones a {
   color: white;
   border-radius: 40px;
-  padding: 3px;
+  padding: 5px;
 }
 
 .iconos-footer {
@@ -497,26 +492,22 @@ footer {
   padding: 0%;
 }
 
-.iconos-footer i {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
+.iconos-footer a {
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  border-radius: 50%;
   font-size: 1.2rem;
   color: #625164;
   background-color: white;
 }
 
-.iconos-footer i:hover {
+.iconos-footer a:hover {
   background-color: #625164;
   border: solid 1px white;
   color: white;
-}
-
-.iconos-footer i:active {
-  box-shadow: 0px 0px 7px #b59ac5;
 }
 
 footer p {
@@ -534,7 +525,7 @@ a {
   text-decoration: none;
 }
 
-:focus {
+a:focus {
   outline: none;
   border: solid 1px#b59ac5;
   box-shadow: 0px 0px 7px #b59ac5;
@@ -544,15 +535,21 @@ a {
 /*//////ESTILOS RESPONSIVE///////*/
 
 @media screen and (max-width: 1300px) {
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
   .proyecto-imagenes {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 1100px) {
+  /*////// RESPONSIVE NAV SUPERIOR///////*/
+
   .nav-superior {
     display: none;
   }
+
+  /*////// RESPONSIVE SECCIÓN PRESENTACIÓN///////*/
 
   .presentacion {
     margin-top: 30px;
@@ -571,13 +568,19 @@ a {
     margin-top: 50px;
   }
 
+  /*////// RESPONSIVE SECCIÓN CONOCIMIENTOS///////*/
+
   .contenido-conocimientos {
     width: 90%;
   }
 
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
   .proyecto-imagenes {
     width: 100%;
   }
+
+  /*////// RESPONSIVE SECCIÓN CONTACTO///////*/
 
   .contacto {
     flex-direction: column;
@@ -589,10 +592,15 @@ a {
     width: 100%;
   }
 
+  .contacto-texto p {
+    width: 50%;
+  }
+
   .redes {
     height: 100px;
     flex-wrap: wrap;
   }
+  /*////// RESPONSIVE SECCIÓN FOOTER///////*/
 
   .footer-secciones {
     width: 50%;
@@ -604,20 +612,34 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  /*////// RESPONSIVE GENERAL///////*/
+
   html {
     font-size: 12px;
   }
 
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  /*////// RESPONSIVE SECCIÓN PRESENTACIÓN///////*/
+
   .texto-presentacion h2 {
     font-size: 2rem;
   }
+
   .texto-presentacion h1 {
     font-size: 3rem;
     margin-top: 25px;
   }
+
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
   .proyecto-imagenes {
     width: 80%;
   }
+
+  /*////// RESPONSIVE FORMULARIO///////*/
 
   .nombre-y-apellido {
     height: 130px;
@@ -627,6 +649,8 @@ a {
   .nombre-y-apellido label {
     width: 100%;
   }
+
+  /*////// RESPONSIVE SECCIÓN FOOTER///////*/
 
   .footer-secciones {
     width: 70%;
@@ -639,12 +663,10 @@ a {
   .iconos-footer i {
     font-size: 1.5rem;
   }
-
-  h2 {
-    font-size: 2.5rem;
-  }
 }
 @media screen and (max-width: 810px) {
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
   .proyecto-imagenes {
     width: 100%;
   }
@@ -656,22 +678,42 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  /*////// RESPONSIVE SECCIÓN PRESENTACIÓN///////*/
+
+  .presentacion > img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
   .proyecto-imagenes {
     justify-content: center;
   }
-  .footer-secciones {
-    display: none;
-  }
-  .iconos-footer {
-    width: 65%;
+
+  /*////// RESPONSIVE SECCIÓN CONTACTO///////*/
+
+  .contacto-texto p {
+    width: 80%;
   }
 
   .redes {
     height: auto;
     flex-wrap: nowrap;
   }
+
+  /*////// RESPONSIVE FOOTER///////*/
+
+  .footer-secciones {
+    display: none;
+  }
+  .iconos-footer {
+    width: 65%;
+  }
 }
 @media screen and (max-width: 550px) {
+  /*////// RESPONSIVE SECCIÓN CONOCIMIENTOS///////*/
+
   .contenido-conocimientos {
     width: 100%;
   }
@@ -681,7 +723,16 @@ a {
     height: 180px;
   }
 
-  .derarrollo p {
-    width: 80%;
+  /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
+
+  .tarjeta-proyectos {
+    width: 260px;
+    height: 260px;
+  }
+
+  /*////// RESPONSIVE FOOTER///////*/
+
+  .iconos-footer {
+    width: 70%;
   }
 }
