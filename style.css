@@ -1,6 +1,8 @@
 body {
   margin: 0%;
   font-family: "Montserrat Alternates", sans-serif;
+  /* Box sizing no se hereda. Si queres aplicarselo a todos los elementos usa el selector universal *
+  darselo a body no sirve de nada en este caso: podrias borrarlo sin consecuencias */
   box-sizing: border-box;
 }
 
@@ -9,6 +11,7 @@ body {
   width: 100%;
   height: 80px;
   position: fixed;
+  /* innecesario, este es el color por defecto */
   background-color: white;
   display: flex;
   align-items: center;
@@ -87,10 +90,12 @@ aside ul {
 }
 /*//////ESTILOS DEL MAIN///////*/
 main {
+  /* innecesario height auto */
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* margin: 0; seria la manera preferible de escribirlo. Con 0 no agregamos unidad de medida.  */
   margin: 0%;
 }
 
@@ -98,6 +103,7 @@ main {
 .presentacion {
   width: 90%;
   max-width: 1250px;
+  /* innecesario */
   height: auto;
   display: flex;
   align-items: center;
@@ -249,6 +255,7 @@ main {
 /*//////ESTILOS SECCIÓN CITA///////*/
 
 .cita {
+  /* innecesario */
   width: 100%;
   height: 450px;
   background-color: #b59ac5;
@@ -328,6 +335,8 @@ main {
 
 .img-tarjeta {
   width: 90%;
+  /* 60% de que? si no podes responder esta pregunta, no es recomendable que uses
+  porcentajes aunque funcione. Siempre entendé el codigo que vos misma escribis  */
   height: 60%;
   overflow: hidden;
   display: flex;
@@ -493,6 +502,7 @@ input[type="submit"]:active {
 
 /*//////ESTILOS SECCIÓN FOOTER///////*/
 footer {
+  /* innecesario */
   width: 100%;
   height: 300px;
   background-color: #625164;
@@ -504,6 +514,7 @@ footer {
 }
 
 .nav-inferior {
+  /* innecesario */
   width: 100%;
   display: flex;
   justify-content: center;
