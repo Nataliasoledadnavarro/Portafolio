@@ -17,6 +17,7 @@
           <li class="link-nav"><a href="#presentacion" > HOLA </a></li>
           <li class="link-nav" ><a href="#conocimientos" > CONOCIMIENTOS </a></li>
           <li class="link-nav" ><a href="#proyecto" > PROYECTO </a></li>
+          <!-- cuidado con el espacio en la clase aqui, en algunos navegadores puede impactar negativamente -->
           <li class=" link-nav link-contacto-nav"><a href="#contacto" > CONTACTO </a></li>
         </ul>
 
@@ -186,7 +187,14 @@
         <h2>Escribime</h2>
 
       <div class="nombre-y-apellido">
-
+        <!-- Atencion al tabulado aqui. Input esta adentro de label, por lo que debe tener dos espacios delante. 
+        Si la etiqueta se abre y luego hay un salto de linea, debe haber un salto de linea para cerrarla:
+        <a>
+          <p>Texto</p>
+        </a>
+        En cambio si no hay salto de linea, abre y cierra en el mismo lugar:
+        <a><p>Texto</p></a>
+        Aqui estas mezclando ambas cosas -->
         <label for="nombre"> Nombre*
         <input type="text" name="primer_nombre" id="nombre" placeholder="p. ej.: Natalia" aria-label="Escribir nombre aquí"></label>
 
