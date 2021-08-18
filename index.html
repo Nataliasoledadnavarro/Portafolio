@@ -17,7 +17,6 @@
           <li class="link-nav"><a href="#presentacion" > HOLA </a></li>
           <li class="link-nav" ><a href="#conocimientos" > CONOCIMIENTOS </a></li>
           <li class="link-nav" ><a href="#proyecto" > PROYECTO </a></li>
-          <!-- cuidado con el espacio en la clase aqui, en algunos navegadores puede impactar negativamente -->
           <li class=" link-nav link-contacto-nav"><a href="#contacto" > CONTACTO </a></li>
         </ul>
 
@@ -204,7 +203,7 @@
 
         <h2>Escribime</h2>
 
-      <div class="nombre-y-apellido">
+    <div class="nombre-y-apellido">
         <!-- Atencion al tabulado aqui. Input esta adentro de label, por lo que debe tener dos espacios delante. 
         Si la etiqueta se abre y luego hay un salto de linea, debe haber un salto de linea para cerrarla:
         <a>
@@ -213,22 +212,26 @@
         En cambio si no hay salto de linea, abre y cierra en el mismo lugar:
         <a><p>Texto</p></a>
         Aqui estas mezclando ambas cosas -->
-        <label for="nombre"> Nombre*
-        <input type="text" name="primer_nombre" id="nombre" placeholder="p. ej.: Natalia" aria-label="Escribir nombre aquí"></label>
+      <label for="nombre"> Nombre*
+        <input type="text" name="primer_nombre" id="nombre" placeholder="p. ej.: Natalia" aria-label="Escribir nombre aquí">
+      </label>
 
-        <label for="apellido"> Apellido*
-        <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Navarro" aria-label="Escribir apellido aquí" ></label>
+      <label for="apellido"> Apellido*
+        <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Navarro" aria-label="Escribir apellido aquí" >
+      </label>
 
-      </div>
-
-      
-        <label for="email"> Email*
-        <input type="email" name="email" id="email" placeholder="p. ej.: natalia.navarro@gmail.com" aria-label="Introducir e-mail"></label>
-      
+    </div>
 
       
-        <label for="mensaje"> Mensaje*
-        <textarea wows="30" cols="40" id="mensaje" placeholder="Escriba su mensaje aquí" aria-label="Introducir mensaje aquí"></textarea></label>
+      <label for="email"> Email*
+        <input type="email" name="email" id="email" placeholder="p. ej.: natalia.navarro@gmail.com" aria-label="Introducir e-mail">
+      </label>
+      
+
+      
+      <label for="mensaje"> Mensaje*
+        <textarea wows="30" cols="40" id="mensaje" placeholder="Escriba su mensaje aquí" aria-label="Introducir mensaje aquí"></textarea>
+      </label>
     
         <input type="submit" value="Enviar">
   
@@ -250,10 +253,18 @@
 
     <ul class="iconos-footer">
 
-      <li><a href="https://twitter.com/" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li> 
-      <li><a href="https://github.com/Nataliasoledadnavarro" aria-label="Github"><i class="fab fa-github-alt"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/nataliasoledadnavarro/" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a></li> 
-      <li><a href="https://mail.google.com/" aria-label="Email"> <i class="fas fa-envelope"></i></a></li>
+      <li>
+        <a href="https://twitter.com/" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </li> 
+      <li>
+        <a href="https://github.com/Nataliasoledadnavarro" aria-label="Github"><i class="fab fa-github-alt"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/nataliasoledadnavarro/" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </li> 
+      <li>
+        <a href="https://mail.google.com/" aria-label="Email"> <i class="fas fa-envelope"></i></a>
+      </li>
     
     </ul>
 
