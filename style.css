@@ -302,7 +302,7 @@ main {
 }
 
 .proyecto-texto > p {
-  width: 45%;
+  width: 80%;
   text-align: center;
 }
 
@@ -329,6 +329,7 @@ main {
 
 .img-tarjeta {
   width: 90%;
+  height: 180px;
   overflow: hidden;
   display: flex;
   justify-content: center;
