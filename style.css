@@ -5,6 +5,7 @@
 body {
   margin: 0%;
   font-family: "Montserrat Alternates", sans-serif;
+  color: #4c3f54;
 }
 
 /*//////ESTILOS DEL NAV///////*/
@@ -27,26 +28,28 @@ nav ul {
 .link-nav a {
   padding: 8px;
   font-size: 1rem;
-  color: black;
+  color: #4c3f54;
 }
 
 .link-contacto-nav a {
-  background-color: #b59ac5;
+  background-color: #fd6868;
+  color: black;
   border-radius: 40px;
   padding: 10px 20px;
 }
 
 .link-nav :hover {
-  color: #806e81;
+  color: #fd6868;
 }
 
 .link-contacto-nav a:hover {
-  background-color: #806e81;
-  color: white;
+  background-color: #27b4a8;
+  color: black;
 }
 
 .link-contacto-nav a:active {
-  background-color: #806e81d0;
+  background-color: #fd6868;
+  border-radius: 40px;
 }
 
 /*//// ESTILOS ASIDE OCULTO////*/
@@ -67,12 +70,10 @@ aside {
 .fa-window-close {
   font-size: 18px;
   margin: 10px;
-  color: #625164;
 }
 
 .titulo-aside {
   font-size: 24px;
-  color: #625164;
   width: 100%;
   text-align: center;
 }
@@ -116,21 +117,19 @@ main {
 .texto-presentacion > h2 {
   font-size: 2rem;
   margin-bottom: 0%;
-  color: #806e81;
 }
 
 .texto-presentacion > h1 {
   font-size: 4rem;
-  color: #625164;
   margin-top: 1%;
   margin-bottom: 5%;
+  color: #fd6868;
 }
 
 .texto-presentacion > p {
   font-size: 1rem;
   font-weight: 400;
   margin-top: 0%;
-  color: rgb(83, 81, 81);
 }
 
 .presentacion > img {
@@ -144,20 +143,19 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b59ac5;
+  background-color: #fd6868;
+  color: black;
   border-radius: 40px;
   margin-top: 30px;
   font-size: 1rem;
-  color: black;
 }
 
 .link-presentacion a:hover {
-  background-color: #806e81;
-  color: white;
+  background-color: #27b4a8;
 }
 
 .link-presentacion a:active {
-  background-color: #806e81ec;
+  background-color: #27b4a8;
 }
 
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
@@ -217,7 +215,7 @@ main {
 }
 
 .lenguajes:hover {
-  border: solid 2px #b59ac5;
+  border: solid 2px #fd6868;
   border-radius: 10px;
 }
 
@@ -254,7 +252,8 @@ main {
 
 .cita {
   height: 450px;
-  background-color: #b59ac5;
+  background-color: #fd6868;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,7 +264,6 @@ main {
 .fa-quote-right {
   text-align: center;
   font-size: 6rem;
-  color: black;
 }
 .cita > p {
   width: 60%;
@@ -318,13 +316,13 @@ main {
 .tarjeta-proyectos {
   width: 300px;
   height: 300px;
-  color: black;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   border: solid 2px rgba(128, 128, 128, 0.342);
+  color: #4c3f54;
   border-radius: 10px;
   margin: 10px;
 }
@@ -344,12 +342,12 @@ main {
 }
 
 .tarjeta-proyectos:hover {
-  border: solid 2px #b59ac5;
+  border: solid 2px #fd6868;
   border-radius: 10px;
 }
 
 .tarjeta-proyectos:active {
-  box-shadow: #b59ac5 0px 3px 8px;
+  box-shadow: #fd6868 0px 3px 8px;
 }
 
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
@@ -376,7 +374,6 @@ form {
 
 .contacto-texto p {
   width: 80%;
-  color: rgb(109, 106, 106);
   font-weight: 500;
 }
 
@@ -389,7 +386,6 @@ form {
 
 .contacto-redes i {
   font-size: 1.2em;
-  color: #625164;
   width: 30px;
   height: 30px;
   display: flex;
@@ -401,7 +397,7 @@ form {
 }
 
 .contacto-redes a {
-  color: #625164;
+  color: #4c3f54;
   display: flex;
   align-items: center;
   padding: 5px;
@@ -409,11 +405,11 @@ form {
 }
 
 .contacto-redes :hover {
-  color: black;
+  color: #fd6868;
 }
 
 .contacto-redes i:hover {
-  background-color: #625164;
+  background-color: #fd6868;
   color: white;
 }
 
@@ -451,8 +447,15 @@ textarea {
   border: none;
   margin: 5px;
   padding: 10px;
-  background-color: #b59ac56e;
+  background-color: #fd68683d;
   border-radius: 10px;
+}
+
+textarea::placeholder {
+  color: #4c3f54;
+}
+input::placeholder {
+  color: #4c3f54;
 }
 
 textarea {
@@ -462,36 +465,33 @@ textarea {
 
 input:focus {
   outline: none;
-  border: solid 2px #b59ac5;
+  border: solid 1px #fd6868;
   border-radius: 10px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  box-shadow: 0px 0px 7px #fd6868;
 }
 
 textarea:focus {
   outline: none;
-  border: solid 2px#b59ac5;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border: solid 1px #fd6868;
+  box-shadow: 0px 0px 7px #fd6868;
   border-radius: 20px;
 }
 
 input[type="submit"] {
   padding: 15px;
   width: 130px;
-  background-color: #625164;
+  background-color: #fd6868;
   border-radius: 20px;
-  color: white;
   font-size: 1.2rem;
 }
 
 input[type="submit"]:hover {
-  background-color: #b59ac5;
-  color: black;
+  background-color: #27b4a8;
+  border: #27b4a8;
 }
 
 input[type="submit"]:active {
-  background-color: #b59ac5ec;
+  background-color: #27b4a8;
 }
 
 /*//////ESTILOS SECCIÓN FOOTER///////*/
@@ -499,7 +499,7 @@ footer {
   /* innecesario */
   width: 100%;
   height: 300px;
-  background-color: #625164;
+  background-color: #fd6868;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -521,7 +521,7 @@ footer {
 }
 
 .footer-secciones a {
-  color: white;
+  color: black;
   border-radius: 40px;
   padding: 5px;
 }
@@ -542,18 +542,32 @@ footer {
   justify-content: center;
   border-radius: 50%;
   font-size: 1.2rem;
-  color: #625164;
+  color: #4c3f54;
   background-color: white;
 }
 
 .iconos-footer a:hover {
-  background-color: #625164;
+  background-color: #4c3f54;
   border: solid 1px white;
   color: white;
 }
 
+.iconos-footer a:focus {
+  outline: none;
+  border: solid 1px #4c3f54;
+  box-shadow: 0px 0px 7px #4c3f54;
+  border-radius: 20px;
+}
+
+.footer-secciones a:focus {
+  outline: none;
+  border: solid 1px #4c3f54;
+  box-shadow: 0px 0px 7px #4c3f54;
+  border-radius: 20px;
+}
+
 footer p {
-  color: white;
+  color: black;
   font-size: 1rem;
 }
 
@@ -569,8 +583,8 @@ a {
 
 a:focus {
   outline: none;
-  border: solid 1px#b59ac5;
-  box-shadow: 0px 0px 7px #b59ac5;
+  border: solid 1px #fd6868;
+  box-shadow: 0px 0px 7px #fd6868;
   border-radius: 20px;
 }
 
@@ -595,12 +609,11 @@ a:focus {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-right: 40px;
     font-size: 30px;
   }
 
   .icono-hamburguesa {
-    color: #b59ac5;
+    color: #4c3f54;
   }
 
   /*////// RESPONSIVE SECCIÓN PRESENTACIÓN///////*/
