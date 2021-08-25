@@ -8,6 +8,31 @@ body {
   color: #4c3f54;
 }
 
+/*////ESTILOS MODO OSCURO////*/
+.modo-oscuro {
+  width: 70px;
+  height: 30px;
+  border-radius: 40px;
+  border: solid 1px #fd68688e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  z-index: 1;
+}
+.fa-sun {
+  color: #fd6868;
+}
+.fa-moon {
+  color: #4c3f54;
+}
+
+.modo-oscuro i:hover {
+  color: #27b4a8;
+}
+
 /*//////ESTILOS DEL NAV///////*/
 .nav-superior {
   width: 100%;
@@ -347,7 +372,8 @@ main {
 .tarjeta-proyectos:hover {
   border: solid 2px #fd68688c;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .tarjeta-proyectos:active {

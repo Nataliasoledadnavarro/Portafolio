@@ -9,3 +9,4 @@ iconoHamburguesa.onclick = () => {
 iconoCruz.onclick = () => {
   panelAside.classList.add("aside-oculto");
 };
+
