@@ -10,6 +10,14 @@ iconoCruz.onclick = () => {
   panelAside.classList.add("aside-oculto");
 };
 
-const iconoSol = document.querySelector(".fa-sun")
-const iconoLuna = document.querySelector(".fa-moon")
+const iconoSol = document.querySelector(".fa-sun");
+const iconoLuna = document.querySelector(".fa-moon");
+const body = document.querySelector("body");
 
+iconoLuna.onclick = () => {
+  body.classList.add("oscuro");
+};
+
+iconoSol.onclick = () => {
+  body.classList.remove("oscuro");
+};

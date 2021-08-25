@@ -22,11 +22,9 @@ body {
   left: 20px;
   z-index: 1;
 }
-.fa-sun {
-  color: #fd6868;
-}
+.fa-sun,
 .fa-moon {
-  color: #4c3f54;
+  color: #fd6868;
 }
 
 .modo-oscuro i:hover {
@@ -39,6 +37,19 @@ body {
   background-color: black;
   color: white;
 }
+
+.oscuro .modo-oscuro {
+  background-color: white;
+}
+
+.oscuro .nav-oculto i {
+  color: white;
+}
+
+.oscuro aside{
+background-color: rgb(66, 63, 63);
+}
+
 .oscuro a {
   color: white;
 }
@@ -63,7 +74,17 @@ body {
   border: solid 2px rgba(212, 203, 203, 0.712);
 }
 
-.oscuro .tarjeta-proyectos{border: solid 2px rgba(212, 203, 203, 0.712)}
+.oscuro .tarjeta-proyectos {
+  border: solid 2px rgba(212, 203, 203, 0.712);
+}
+
+.oscuro input {
+  background-color: white;
+}
+
+.oscuro textarea {
+  background-color: white;
+}
 
 .oscuro footer {
   background-color: rgb(66, 63, 63);
@@ -83,14 +104,6 @@ body {
 
 .oscuro .fa-gratipay {
   color: white;
-}
-
-.oscuro input {
-  background-color: white;
-}
-
-.oscuro textarea {
-  background-color: white;
 }
 
 /*//////ESTILOS DEL NAV///////*/
