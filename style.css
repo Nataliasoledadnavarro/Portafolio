@@ -33,6 +33,66 @@ body {
   color: #27b4a8;
 }
 
+/*//Estilos clase .oscuro//*/
+
+.oscuro {
+  background-color: black;
+  color: white;
+}
+.oscuro a {
+  color: white;
+}
+
+.oscuro div a {
+  color: white;
+}
+
+.oscuro .nav-superior {
+  background-color: rgb(66, 63, 63);
+}
+
+.oscuro ul li a {
+  color: white;
+}
+
+.oscuro article p {
+  color: white;
+}
+
+.oscuro .lenguajes {
+  border: solid 2px rgba(212, 203, 203, 0.712);
+}
+
+.oscuro .tarjeta-proyectos{border: solid 2px rgba(212, 203, 203, 0.712)}
+
+.oscuro footer {
+  background-color: rgb(66, 63, 63);
+}
+
+.oscuro footer i {
+  color: rgb(66, 63, 63);
+}
+
+.oscuro footer i:hover {
+  color: white;
+}
+
+.oscuro footer p {
+  color: white;
+}
+
+.oscuro .fa-gratipay {
+  color: white;
+}
+
+.oscuro input {
+  background-color: white;
+}
+
+.oscuro textarea {
+  background-color: white;
+}
+
 /*//////ESTILOS DEL NAV///////*/
 .nav-superior {
   width: 100%;
