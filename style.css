@@ -46,8 +46,8 @@ body {
   color: white;
 }
 
-.oscuro aside{
-background-color: rgb(66, 63, 63);
+.oscuro aside {
+  background-color: rgb(66, 63, 63);
 }
 
 .oscuro a {
@@ -310,6 +310,7 @@ main {
   color: black;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .lenguajes:hover {
@@ -321,6 +322,13 @@ main {
 
 .lenguajes > i {
   font-size: 80px;
+  margin-bottom: 0;
+}
+
+.bulma,
+.scrum {
+  width: 120px;
+  height: 120px;
   margin-bottom: 0;
 }
 
@@ -896,6 +904,13 @@ a:focus {
   .lenguajes {
     width: 180px;
     height: 180px;
+  }
+
+  .bulma,
+  .scrum {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 0;
   }
 
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
