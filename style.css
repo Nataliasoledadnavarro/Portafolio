@@ -259,7 +259,7 @@ main {
 /*//////ESTILOS SECCIÓN CONOCIMIENTOS///////*/
 .conocimientos {
   width: 90%;
-  max-width: 1250px;
+  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -286,21 +286,20 @@ main {
 }
 
 .contenido-conocimientos {
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-around;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 .lenguajes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   width: 250px;
   height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
   margin-top: 10px;
   border-radius: 10px;
   border: solid 2px rgba(192, 187, 187, 0.432);
@@ -723,9 +722,9 @@ a:focus {
 
   .nav-oculto {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    justify-content:center;
     font-size: 30px;
+    margin-top: 10px;
   }
 
   .icono-hamburguesa {
