@@ -1,18 +1,24 @@
 const iconoHamburguesa = document.querySelector(".icono-hamburguesa");
 const panelAside = document.querySelector(".aside-oculto");
-const iconoCruz = document.querySelector(".fa-window-close");
+const iconoCruzNav = document.querySelector(".cerrar-modal-nav");
+const tarjetaProyectosPersonales = document.getElementById(
+  "proyectos-personales"
+);
+const modalProyectosPersonales = document.querySelector(
+  ".modal-proyectos-personales"
+);
+
+const iconoSol = document.querySelector(".fa-sun");
+const iconoLuna = document.querySelector(".fa-moon");
+const body = document.querySelector("body");
 
 iconoHamburguesa.onclick = () => {
   panelAside.classList.remove("aside-oculto");
 };
 
-iconoCruz.onclick = () => {
+iconoCruzNav.onclick = () => {
   panelAside.classList.add("aside-oculto");
 };
-
-const iconoSol = document.querySelector(".fa-sun");
-const iconoLuna = document.querySelector(".fa-moon");
-const body = document.querySelector("body");
 
 iconoLuna.onclick = () => {
   body.classList.add("oscuro");
@@ -20,4 +26,8 @@ iconoLuna.onclick = () => {
 
 iconoSol.onclick = () => {
   body.classList.remove("oscuro");
+};
+
+tarjetaProyectosPersonales.onclick = () => {
+  modalProyectosPersonales.classList.toggle("ocultar")
 };
