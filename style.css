@@ -58,6 +58,10 @@ body {
   color: white;
 }
 
+.oscuro #proyectos-personales p{
+  color: white;
+} 
+
 .oscuro .nav-superior {
   background-color: rgb(66, 63, 63);
 }
@@ -465,25 +469,54 @@ main {
 }
 
 .modal-proyectos-personales {
-  width: 250px;
-  height: 200px;
-  border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-.ocultar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fd686841;
   display: none;
 }
-.link-proyecto-personal {
-  font-size: 15px;
-}
-.lista-proyectos-personales {
+.contenedor-proyectos-personales {
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: white;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  align-items: center;
+  padding: 0%;
+  padding-top: 40px;
 }
-.lista-proyectos-personales li {
-  margin-bottom: 15px;
+
+.proyecto-personal {
+  width: 90%;
+  height: 80px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    overflow: hidden;
+}
+
+.proyecto-personal img {
+  width: 100%;
+}
+
+.proyecto-personal:focus {
+  border-radius: 0;
+}
+
+#cerrar-proyectos-personales {
+  position: relative;
+  bottom: 170px;
+  right: 290px;
+  border: none;
+  background-color: transparent;
+}
+#cerrar-proyectos-personales i {
+  font-size: 18px;
+  color: #fd6868;
 }
 
 /*//////ESTILOS SECCIÓN CONTACTO///////*/

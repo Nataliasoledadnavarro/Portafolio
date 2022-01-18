@@ -12,6 +12,8 @@ const iconoSol = document.querySelector(".fa-sun");
 const iconoLuna = document.querySelector(".fa-moon");
 const body = document.querySelector("body");
 
+const botonCerrarProyectosPersonales = document.querySelector("#cerrar-proyectos-personales")
+
 iconoHamburguesa.onclick = () => {
   panelAside.classList.remove("aside-oculto");
 };
@@ -29,5 +31,9 @@ iconoSol.onclick = () => {
 };
 
 tarjetaProyectosPersonales.onclick = () => {
-  modalProyectosPersonales.classList.toggle("ocultar")
+  modalProyectosPersonales.style.display = "flex"
 };
+
+botonCerrarProyectosPersonales.onclick = () =>{
+  modalProyectosPersonales.style.display = "none"
+}
