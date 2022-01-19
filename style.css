@@ -58,9 +58,9 @@ body {
   color: white;
 }
 
-.oscuro #proyectos-personales p{
+.oscuro #proyectos-personales p {
   color: white;
-} 
+}
 
 .oscuro .nav-superior {
   background-color: rgb(66, 63, 63);
@@ -496,7 +496,7 @@ main {
   height: 80px;
   margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .proyecto-personal img {
@@ -519,6 +519,15 @@ main {
   color: #fd6868;
 }
 
+.proximamente {
+  text-align: center;
+  color: #fd6868;
+  background-color: rgba(220, 220, 220, 0.658);
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  padding: 15px;
+}
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
 .contacto {
   max-width: 1250px;
@@ -915,6 +924,10 @@ a:focus {
   .tarjeta-proyectos {
     width: 280px;
     height: 280px;
+  }
+
+  .proximamente {
+    font-size: 22px;
   }
 }
 
