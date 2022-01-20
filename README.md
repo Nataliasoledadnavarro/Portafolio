@@ -32,6 +32,8 @@ Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/) 🏃�
 
 • JavaScript
 
+• Git
+
 ¡Se reciben aportes constructivos para seguir creciendo!
 
 **💜¡Gracias por pasar!💜**
