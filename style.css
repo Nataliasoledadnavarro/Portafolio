@@ -297,7 +297,7 @@ main {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -308,7 +308,7 @@ main {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  margin-top: 10px;
+  margin: 10px;
   border-radius: 10px;
   border: solid 2px rgba(192, 187, 187, 0.432);
 }
@@ -915,6 +915,10 @@ a:focus {
   }
 }
 @media screen and (max-width: 810px) {
+  .contenido-conocimientos {
+    justify-content: center;
+  }
+
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
 
   .proyecto-imagenes {
