@@ -4,7 +4,17 @@
 
 👩‍💻 **¡Acá vas a encontrar mi primer proyecto!**
 
-Es una página web con información sobre mi recorrido aprendiendo a programar.
+Se trata de una web que cuenta con información sobre mi recorrido programando. Lo desarrolle con:
+
+• HTML
+
+• CSS (Flexbox / Responsive)
+
+• JavaScript
+
+• Git
+
+Con el correr de los meses fui realizando algunas mejoras y actualizaciones pero decidí conservarlo en las tecnologías iniciales para poder hacer un recorrido del crecimiento en el proceso de aprendizaje. 
 
 Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/) 🏃‍♀️
 
@@ -24,17 +34,7 @@ Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/) 🏃�
 
 ---
 
-#### Para llevar a cabo ésta pagina utilicé las siguientes tecnologías y lenguaje:
-
-• HTML
-
-• CSS (Flexbox / Responsive)
-
-• JavaScript
-
-• Git
-
-¡Se reciben aportes constructivos para seguir creciendo!
+### Me encuentro en busqueda activa laboral, idealmente, en un equipo de trabajo desarrollando React.js.
 
 **💜¡Gracias por pasar!💜**
 
