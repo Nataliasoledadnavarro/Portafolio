@@ -197,8 +197,6 @@ aside ul {
 }
 /*//////ESTILOS DEL MAIN///////*/
 main {
-  /* innecesario height auto */
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,7 +270,6 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 150px;
 }
 
 .desarrollo {
@@ -396,12 +393,12 @@ main {
 
 /*//////ESTILOS SECCIÓN PROYECTOS///////*/
 .proyectos {
-  max-width: 1400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .proyecto-texto {
   width: 80%;
@@ -430,6 +427,7 @@ main {
 
 .tarjeta-proyectos {
   width: 300px;
+  min-width: 300px;
   height: 300px;
   font-size: 1.2rem;
   display: flex;
@@ -440,6 +438,10 @@ main {
   color: #4c3f54;
   border-radius: 10px;
   margin: 10px;
+}
+
+.tarjeta-proyectos:hover {
+  transform: scale(1.1);
 }
 
 .img-tarjeta {
@@ -457,14 +459,14 @@ main {
   text-align: center;
 }
 
-.tarjeta-proyectos:hover {
+.tarjeta-proyectos :hover {
   border: solid 2px #fd68688c;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.tarjeta-proyectos:active {
+.tarjeta-proyectos :active {
   box-shadow: #fd6868 0px 3px 8px;
 }
 
@@ -520,14 +522,37 @@ main {
 }
 
 .proximamente {
+  width: 100%;
   text-align: center;
   color: #fd6868;
-  background-color: rgba(220, 220, 220, 0.658);
+  background-color: rgba(109, 106, 106, 0.253);
   font-weight: bold;
-  font-size: 28px;
-  position: absolute;
+  font-size: 20px;
   padding: 15px;
 }
+
+/*////////////CAROUSEL//////////*/
+
+.carousel {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carousel::-webkit-scrollbar {
+  width: 100%;
+  background-color: #4c3f54;
+  height: 5px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #fd6868;
+  border-radius: 5px;
+}
+
 /*//////ESTILOS SECCIÓN CONTACTO///////*/
 .contacto {
   max-width: 1250px;
@@ -925,7 +950,7 @@ a:focus {
     width: 100%;
   }
 
-  .tarjeta-proyectos {
+  .tarjeta-proyectos item-carousel {
     width: 280px;
     height: 280px;
   }
@@ -990,7 +1015,7 @@ a:focus {
 
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
 
-  .tarjeta-proyectos {
+  .tarjeta-proyectos item-carousel {
     width: 260px;
     height: 260px;
   }
