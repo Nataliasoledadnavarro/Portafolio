@@ -329,8 +329,15 @@ main {
   margin-bottom: 0;
 }
 
+.lenguajes .proximamente {
+  width: 90%;
+  border-radius: 5px;
+  padding: 0;
+}
+
 .bulma,
-.scrum {
+.scrum,
+.nodejs {
   width: 120px;
   height: 120px;
   margin-bottom: 0;
@@ -750,7 +757,7 @@ footer {
 }
 
 .iconos-footer a:hover {
-  background-color: #4c3f54;
+  background-color: #fd6868;
   border: solid 1px white;
   color: white;
 }
@@ -1006,8 +1013,13 @@ a:focus {
     height: 180px;
   }
 
+  .lenguajes .proximamente {
+    font-size: 18px;
+  }
+
   .bulma,
-  .scrum {
+  .scrum,
+  .nodejs {
     width: 85px;
     height: 85px;
     margin-bottom: 0;
