@@ -17,7 +17,33 @@ const botonCerrarProyectosPersonales = document.querySelector(
 );
 
 const carouselItem = document.querySelector(".carousel");
-console.log(carouselItem);
+
+const formulario = document.querySelector("form");
+const inputNombre = document.getElementById("nombre");
+const inputApellido = document.getElementById("apellido");
+const inputEmail = document.getElementById("email");
+const inputMensaje = document.getElementById("mensaje");
+const modalValidacion = document.querySelector(".modal-validacion");
+const cerrarModal = document.getElementById("cerrar-modal");
+const botonEnviar = document.getElementById("boton-enviar");
+const webhook = document.querySelector(".webhook");
+
+formulario.addEventListener("submit", (e) => {
+  if (
+    inputNombre.value === "" ||
+    inputApellido.value === "" ||
+    inputEmail.value === "" ||
+    inputMensaje.value === ""
+  ) {
+    e.preventDefault();
+    modalValidacion.style.display = "flex";
+  }
+});
+
+cerrarModal.onclick = (e) => {
+  modalValidacion.style.display = "none";
+  e.preventDefault();
+};
 
 iconoHamburguesa.onclick = () => {
   panelAside.classList.remove("aside-oculto");
