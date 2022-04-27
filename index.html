@@ -292,15 +292,15 @@
         <div class="nombre-y-apellido">
           <label for="nombre">
             Nombre*
-            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Natalia"
-              aria-label="Escribir nombre aquí" />
+            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Natalia" aria-label="Escribir nombre aquí"
+              required />
 
           </label>
 
           <label for="apellido">
             Apellido*
             <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Navarro"
-              aria-label="Escribir apellido aquí" />
+              aria-label="Escribir apellido aquí" required />
           </label>
 
         </div>
@@ -308,28 +308,18 @@
         <label for="email">
           Email*
           <input type="email" name="email" id="email" placeholder="p. ej.: natalia.navarro@gmail.com"
-            aria-label="Introducir e-mail" />
+            aria-label="Introducir e-mail" required />
 
         </label>
 
         <label for="mensaje">
           Mensaje*
           <textarea wows="30" cols="40" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí"
-            aria-label="Introducir mensaje aquí"></textarea>
+            aria-label="Introducir mensaje aquí" required></textarea>
 
         </label>
 
-        <input type="submit" value="Enviar" id="boton-enviar" />
-
-        <div class="modal-validacion">
-
-          
-          <div>
-            <button id="cerrar-modal" aria-label="Boton cerrar"><i class="fas fa-times"></i></button>
-            <p>Completar todos los campos</p>
-          </div>
-        </div>
-
+        <input type="submit" value="Enviar" />
         <input type="hidden" name="_next" value="https://nataliasoledadnavarro.github.io/Portfolio/">
         <input type="hidden" name="_captcha" value="false">
         <!--https://formsubmit.co/-->
