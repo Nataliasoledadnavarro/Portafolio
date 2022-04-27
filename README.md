@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/84355672/164056545-d97b6191-0067-4c38-85bf-47c26f83f4fb.png"  whidth = "100%"/>
+<img src="https://user-images.githubusercontent.com/84355672/165528234-9600df68-eaed-4ee2-ad11-3906facc3410.png"  whidth = "100%"/>
 
 # Mi portfolio
 
