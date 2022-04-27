@@ -477,6 +477,18 @@ main {
   box-shadow: #fd6868 0px 3px 8px;
 }
 
+.modal-proyectos-personales {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fd686841;
+  display: none;
+}
+
 .contenedor-proyectos-personales {
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -693,24 +705,6 @@ input[type="submit"]:active {
 }
 .ocultar {
   display: none;
-}
-
-.modal-validacion div {
-  width: 300px;
-  height: 150px;
-  background-color: #4c3f54;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-#cerrar-modal {
-  border: none;
-  background-color: transparent;
-}
-
-#cerrar-modal i {
-  font-size: 18px;
-  color: #fd6868;
 }
 
 /*//////ESTILOS SECCIÓN FOOTER///////*/
